@@ -1,0 +1,38 @@
+CECLevels;CECcorredores;Individuales;Categoria;larga.csv;media.csv;sprint.csv;Relevos;relevos.csv;Carrera;TiempoMax;PuntuacionMin
+Cadete;3;F-12;Cadete;100;100;100;F-CADETE;220;larga.csv;180;10
+Junior;3;F-14;Cadete;100;100;100;F-INFANTIL;220;media.csv;90;10
+Veterano;4;F-16;Cadete;100;100;100;F-JUNIOR;220;sprint.csv;40;10
+Senior;7;F-18/20B;Junior;60;60;60;F-SENIOR;250;relevos.csv;240;0
+;;F-18A;Junior;100;100;100;F-VET A;220;;;
+;;F-20A;Junior;100;100;100;F-VET B;220;;;
+;;F-21A;Senior;100;100;100;F-VET C;220;;;
+;;F-21B;Senior;60;60;60;M-CADETE;220;;;
+;;F-35A;Veterano;100;100;100;M-INFANTIL;220;;;
+;;F-35B;Veterano;60;60;60;M-JUNIOR;220;;;
+;;F-40;Veterano;100;100;100;M-SENIOR;250;;;
+;;F-45;Veterano;100;100;100;M-VET A;220;;;
+;;F-50;Veterano;100;100;100;M-VET B;220;;;
+;;F-55;Veterano;100;100;100;M-VET C;220;;;
+;;F-60;Veterano;100;100;100;OPEN AMARILL;0;;;
+;;F-65;Veterano;100;100;100;OPEN NARANJA;0;;;
+;;F-E;Senior;125;125;125;OPEN ROJO;0;;;
+;;M-12;Cadete;100;100;100;;;;;
+;;M-14;Cadete;100;100;100;;;;;
+;;M-16;Cadete;100;100;100;;;;;
+;;M-18/20B;Junior;60;60;60;;;;;
+;;M-18A;Junior;100;100;100;;;;;
+;;M-20A;Junior;100;100;100;;;;;
+;;M-21A;Senior;100;100;100;;;;;
+;;M-21B;Senior;60;60;60;;;;;
+;;M-35A;Veterano;100;100;100;;;;;
+;;M-35B;Veterano;60;60;60;;;;;
+;;M-40;Veterano;100;100;100;;;;;
+;;M-45;Veterano;100;100;100;;;;;
+;;M-50;Veterano;100;100;100;;;;;
+;;M-55;Veterano;100;100;100;;;;;
+;;M-60;Veterano;100;100;100;;;;;
+;;M-65;Veterano;100;100;100;;;;;
+;;M-E;Senior;125;125;125;;;;;
+;;OPEN AMARILL;NA;0;0;0;;;;;
+;;OPEN NARANJA;NA;0;0;0;;;;;
+;;OPEN ROJO;NA;0;0;0;;;;;
