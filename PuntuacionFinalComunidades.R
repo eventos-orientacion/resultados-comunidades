@@ -1,5 +1,12 @@
+#!/usr/bin/Rscript
 rm(list = ls())
-setwd("~/RFolder")
+result = tryCatch({
+  # Comenta o modifica la línea setwd dependiendo de tu directorio
+  setwd("~/RFolder")
+}, error = function(e) {
+  print('No se pudo cambiar el directorio de trabajo a ~/RFolder');
+  print('Ejecutando script en el directorio actual...');
+})
 source("ScriptsAuxiliares/util.R")
 source("ScriptsAuxiliares/getResults.R")
 source("ScriptsAuxiliares/getResultsRelevos.R")
@@ -61,9 +68,10 @@ finalRelaysResults<-sumBestRelayTimes(relevos)
 
 finales<-mergeRelaysAndIndividual(finalIndResults,finalRelaysResults)
 
-
-sink(file='ResultadosFinalesPorComunidades.txt')
+outputFinal<-'ResultadosFinalesPorComunidades.txt'
+sink(file=outputFinal)
 print(finalIndResults)
 print(finalRelaysResults)
 print(finales)
 sink()
+print(paste('Fin calculo total CEC, comprueba el archivo: ', outputFinal))
