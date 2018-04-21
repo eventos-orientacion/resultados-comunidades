@@ -1,0 +1,21 @@
+"CECLevels";"CECcorredores";"Individuales";"Categoria";"larga.csv";"media.csv";"sprint.csv";"Relevos";"relevos.csv";"Carrera";"TiempoMax";"PuntuacionMin"
+"Juvenil";2;"F-15";"NA";0;0;0;"F-CADETE";0;"larga.csv";300;0
+"Junior";2;"F-17";"Juvenil";100;100;100;"F-INFANTIL";0;"media.csv";300;0
+"VeteranoA";2;"F-20";"Junior";100;100;100;"F-JUNIOR";0;"sprint.csv";300;0
+"VeteranoB";2;"F-21";"NA";0;0;0;"F-VET B";0;"relevos.csv";300;0
+"VeteranoC";2;"F-40";"VeteranoA";100;100;100;"F-VET C";0;;;
+"Senior";3;"F-50";"VeteranoB";100;100;100;"M-CADETE";0;;;
+;;"F-60";"VeteranoC";100;100;100;"M-INFANTIL";0;;;
+;;"F-E";"Senior";125;125;125;"M-JUNIOR";0;;;
+;;"M-15";"NA";0;0;0;"M-SENIOR";0;;;
+;;"M-17";"Juvenil";100;100;100;"M-VET A";0;;;
+;;"M-20";"Junior";100;100;100;"M-VET B";0;;;
+;;"M-21";"NA";0;0;0;"M-VET C";0;;;
+;;"M-40";"VeteranoA";100;100;100;"OPEN AMARILL";0;;;
+;;"M-50";"VeteranoB";100;100;100;"OPEN NARANJA";0;;;
+;;"M-60";"VeteranoC";100;100;100;"OPEN ROJO";0;;;
+;;"M-E";"Senior";125;125;125;;;;;
+;;"ABS-PAREJAS";"NA";0;0;0;;;;;
+;;"INI";"NA";0;0;0;;;;;
+;;"F-PROMO";"NA";0;0;0;;;;;
+;;"M-PROMO";"NA";0;0;0;;;;;

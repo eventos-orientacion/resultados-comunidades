@@ -1,6 +1,6 @@
 # Resultados por comunidades
 Calculo de resultados por comunidades usando R.
-Diseñado para la realización de clasificaciones por comunidades autónomas en campeonatos de españa de orientación, siguiendo la normativa FEDO.
+Diseñado para la realización de clasificaciones por comunidades autónomas en campeonatos de España de orientación, siguiendo la normativa FEDO y tras realizar el control de tiempos por sportsoftware.de
 
 
 
@@ -14,6 +14,8 @@ Estos son los ejecutables principales (tambien llamados scripts):
  - PuntuacionRelevos.R
 ### Archivo de configuración
 El archivo de configuracion se llama `csv/info.csv`. En este archivo se pueden configurar las categorías, grupos de edad, puntuaciones, etc. que serán tenidas en cuenta a la hora de calcular la clasificación por comunidades.
+
+Tambien existe el archivo `csv/info-cemtbo.csv` que sería un ejemplo de configuración usando la normativa de MTBO.
 
 Los nombre en la columna `CECLevels` deben coincidir con los de la columna `Categoría`
 
@@ -40,7 +42,7 @@ Para ejecutar los scripts en Linux/Unix, clona el repositorio y accede a la carp
 
 ### Exportar desde sportsoftware
 Exporta los resultados desde OE2010 y OS2010: `Results/Preliminary/Courses/Export`.
-Selecciona las opciones por defecto (csv; delimitador punto y coma (`;`); y delimitador de texto comillas dobles (`"`) ). Si el evento tiene más de una etapa, exporta una única etapa.
+Selecciona las opciones por defecto (csv; delimitador punto y coma `;` ; y delimitador de texto comillas dobles `"` ). Si el evento tiene más de una etapa, exporta una única etapa.
 Los archivos exportados se deben almacenar en la carpeta csv.
 Es importante que la columna `Región` contiene el nombre de las comunidades autónomas.
 Es importante comprobar que los nombres de las columnas coinciden con los archivos de ejemplo en la carpeta `csv`.
@@ -49,6 +51,8 @@ Es importante comprobar que los nombres de las columnas coinciden con los archiv
 
 	
 ## Explicación de los archivos ejecutables
+Thx Fran Varela for developing and documenting
+
 ### PUNTUACION_LARGA
 Puntuacion_larga.csv calculates the score for the runners on a single race 'larga' according to the rules on info.csv
 
